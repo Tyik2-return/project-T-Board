@@ -1,0 +1,66 @@
+[
+  {
+    "timestamp": "2025-12-20T09:44:57.534Z",
+    "type": "EVENT",
+    "name": "boards_fetched",
+    "data": {
+      "count": 3
+    }
+  },
+  {
+    "timestamp": "2025-12-20T09:44:59.823Z",
+    "type": "EVENT",
+    "name": "board_loaded",
+    "data": {
+      "boardId": "7",
+      "columns": 4,
+      "tasks": 2,
+      "tags": 0,
+      "subTasks": 1
+    }
+  },
+  {
+    "timestamp": "2025-12-20T09:45:05.633Z",
+    "type": "EVENT",
+    "name": "task_moved",
+    "data": {
+      "taskId": "23",
+      "column_id": "27",
+      "status": "done"
+    }
+  },
+  {
+    "timestamp": "2025-12-20T09:45:05.656Z",
+    "type": "EVENT",
+    "name": "board_loaded",
+    "data": {
+      "boardId": "7",
+      "columns": 4,
+      "tasks": 2,
+      "tags": 0,
+      "subTasks": 1
+    }
+  },
+  {
+    "timestamp": "2025-12-20T09:45:10.038Z",
+    "type": "EVENT",
+    "name": "task_moved",
+    "data": {
+      "taskId": "23",
+      "column_id": "25",
+      "status": "pending"
+    }
+  },
+  {
+    "timestamp": "2025-12-20T09:45:10.062Z",
+    "type": "EVENT",
+    "name": "board_loaded",
+    "data": {
+      "boardId": "7",
+      "columns": 4,
+      "tasks": 2,
+      "tags": 0,
+      "subTasks": 1
+    }
+  }
+]

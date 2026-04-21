@@ -1,0 +1,31 @@
+Tbank
+|-client
+|   |-css
+|   |  |-style.css
+|   |
+|   |-js
+|   |  |-board
+|   |  |   |-board_render.js
+|   |  |   |-board_task.js
+|   |  |   |-board_subtask.js
+|   |  |   |-board_tag.js
+|   |  |   |-board.js 
+|   |  |
+|   |  |-index.js
+|   |
+|   |-board.html
+|   |-index.html
+|
+|-db
+|  |-db.js
+|
+|-api
+|  |-delete.js
+|  |-get.js
+|  |-patch.js
+|  |-post.js
+|
+|
+|-server.js
+
+

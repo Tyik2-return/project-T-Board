@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TBank</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="board-page">
+  <div class="header">
+    <button class="back-btn" onclick="location.href='/'">Главная</button>
+    <h2 style="margin:0; text-align:center; font-weight:normal;">
+      <span id="boardTitle">Загрузка...</span>
+    </h2>
+  </div>
+  
+
+  <div class="tag-creator">
+    <input type="text" id="tagName" placeholder="Название тега">
+    <input type="color" id="tagColor" value="#fff200">
+    <button onclick="createTag()">Создать тег</button>
+    <div id="tagList" style="margin-top:12px;"></div>
+  </div>
+  <div class="columns" id="columns"></div>
+
+  <script src="js/board/board.js"></script>
+  <script src="js/board/board_render.js"></script>
+  <script src="js/board/board_task.js"></script>
+  <script src="js/board/board_subtask.js"></script>
+  <script src="js/board/board_tag.js"></script>
+</body>
+</html>
